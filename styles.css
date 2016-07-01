@@ -1,8 +1,66 @@
-html { 
+html, body { 
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1.home {
+section.landing-page {
+    padding-bottom: 250px;
+    padding-top: 100px;
+    background-image: url(landing.JPG);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 150px;
+    text-align: left;
+    border: 0;
+    padding-left: 100px;
+    margin: 0;
+}
+
+h2 {
     font-size: 75px;
+    color: #F9FFC6;
+    text-align: left;
+    border: 0;
+    padding-left: 105px;
+    margin: 0;
+}
+
+.more-button {
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    margin-left: 100px;
+    margin-top: 75px;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.more-button:hover {
+    background-color: dimgray; /* Green */
+    border: none;
+    color: white;
+    margin-left: 100px;
+    margin-top: 75px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+section.about, h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 250px;
+    padding-top: 100px;
 }
