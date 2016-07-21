@@ -1,66 +1,85 @@
-html, body { 
+html {
     font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
+    width:100%;
+    height:100%;
+    background-image: url("minimal_clouds.jpg");
+    background-position: bottom;  
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.landing-page {
-    padding-bottom: 250px;
-    padding-top: 100px;
-    background-image: url(landing.JPG);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: 100%;
+body::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
+}
+
+.fixed {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 50%;
+    /* background-image: url("minimal_clouds.jpg");
+    background-position: bottom; */ 
+}
+
+.content {
+    float: right;
+    width: 50%;
 }
 
 h1 {
-    font-size: 150px;
-    text-align: left;
+    font-size: 10vmin;
     border: 0;
-    padding-left: 100px;
+    padding-left: 20%;
+    padding-top: 50px;
     margin: 0;
+    color: white;  
+    text-shadow: 5px 5px gray;
 }
 
-h2 {
-    font-size: 75px;
-    color: #F9FFC6;
-    text-align: left;
-    border: 0;
-    padding-left: 105px;
-    margin: 0;
+img.myself {
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 25%;
 }
 
-.more-button {
-    background-color: gray; /* Green */
-    border: none;
-    color: white;
-    margin-left: 100px;
-    margin-top: 75px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-     -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
+h2.bio {
+    color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 3vmin;
+    
 }
 
-.more-button:hover {
-    background-color: dimgray; /* Green */
-    border: none;
-    color: white;
-    margin-left: 100px;
-    margin-top: 75px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+h2.titles {
+    font-size: 6vmin;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 25px;
+    color: black;
 }
 
-section.about, h3 {
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 250px;
-    padding-top: 100px;
+p.titles-text{
+    font-size: 3vmin;
+    text-align: right;
+    padding-right: 50px;
+   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
