@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>lol</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> </head>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script>
+    // Globar vars
+    var num = 0;
+    if (num != 6) {
+        var timer;
+        var miliseconds = 120;
+        /**
+         * Function to toggle bgColor
+         * @param array colors Array of colors to set
+         **/
+        function toggleColors(colors) {
+            clearTimeout(timer);
+            var counter = 0;
+            var change = function () {
+                document.bgColor = colors[counter % colors.length]; // Change the color
+                counter++;
+                if (colors.length > 1) timer = setTimeout(change, miliseconds); // Call the changer
+            };
+            change();
+        }
+    }
+</script>
+<script type="text/JavaScript"> function timeRefresh(timeoutPeriod) { setTimeout("location.reload(true);",timeoutPeriod); } </script>
+<script>
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+</script>
+
+<body>
+    <h1> Are you the one?</h1> </body>
+<button onClick="toggleColors( ['#F00', '#FFF', '#00F', '#0F0' ]); JavaScript:timeRefresh(4000); play()" class="button">Yes</button>
+<audio id="audio" src="ultimate.ogg"></audio>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

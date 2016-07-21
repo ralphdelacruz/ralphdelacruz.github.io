@@ -1,0 +1,63 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 0;
+}
+
+.button {
+    background-color: darkgray;
+    /* Green */
+    border: none;
+    color: white;
+    margin-left: 45.5%;
+    margin-top: 75px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 15%;
+}
+
+.button:hover {
+    background-color: dimgray;
+    /* Green */
+    border: none;
+    color: white;
+    margin-left: 45.5%;
+    margin-top: 75px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
